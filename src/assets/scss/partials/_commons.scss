@@ -38,3 +38,24 @@ body {
     background-color: $accent-color;
   }
 }
+
+.nav_button {
+  position: absolute;
+  top: 90%;
+  left: 97%;
+  background-color: transparent;
+  border: 2px solid $accent-color;
+  transform: rotate(45deg) translate(-100%, -100%);
+  color: $primary-color;
+
+  .wrapper {
+    border: 2px solid $primary-color;
+    background-color: $accent-color;
+
+    :before {
+      transform: rotate(-45deg);
+    }
+
+  }
+
+}

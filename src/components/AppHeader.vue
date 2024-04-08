@@ -46,7 +46,7 @@ export default {
         <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
         <li><a href=""><i class="fa-regular fa-user"></i></a></li>
         <li>
-          <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <a href=""><i class="bi bi-bag"></i></a>
           (0) €0.00
         </li>
       </ul>
