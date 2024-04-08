@@ -17,3 +17,14 @@
   color: $primary-color;
   transform: skewX(-20deg);
 }
+
+.button {
+  padding: 1rem 2rem;
+  background-color: $light-color;
+  color: black;
+  border: none;
+
+  &:hover {
+    background-color: $accent-color;
+  }
+}
