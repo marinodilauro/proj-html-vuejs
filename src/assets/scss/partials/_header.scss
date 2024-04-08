@@ -1,9 +1,8 @@
 @use './variables' as *;
 
 
-
 #header {
-  background-color: $background-color;
+  background-color: $primary-color;
 
   a {
     text-decoration: none;

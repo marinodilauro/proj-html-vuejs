@@ -16,11 +16,11 @@ export default {
       <ul class="d-flex list-unstyled p-0 m-0">
         <li><a href="">Whishlist (0)</a></li>
         <li class="px-3">|</li>
-        <li class="flex-fill">
+        <li>
           <a href="">Need Help ? </a>
           <i class="fa-solid fa-chevron-down fa-xs"></i>
         </li>
-        <li><a href="">Call 24/7 . 800-8754-987</a></li>
+        <li class="ms-auto"><a href="">Call 24/7 . 800-8754-987</a></li>
       </ul>
 
     </div>
@@ -33,7 +33,7 @@ export default {
         <img src="/public/images/logo.png" alt="">
       </div>
 
-      <ul class="navbar d-flex list-unstyled play-bold gap-5 p-0 m-0">
+      <ul class="navbar d-flex list-unstyled oxanium-bold gap-5 p-0 m-0">
         <li><a href="">Home</a></li>
         <li><a href="">Shop</a></li>
         <li><a href="">Blog</a></li>
@@ -42,7 +42,7 @@ export default {
         <li><a href="">Features</a></li>
       </ul>
 
-      <ul class="profile-icons list-unstyled play-bold d-flex gap-4 p-0 m-0">
+      <ul class="profile-icons list-unstyled oxanium-bold d-flex gap-4 p-0 m-0">
         <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
         <li><a href=""><i class="fa-regular fa-user"></i></a></li>
         <li>

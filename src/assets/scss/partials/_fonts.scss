@@ -1,12 +1,21 @@
-// Play font
-.play-regular {
-  font-family: "Play", sans-serif;
+// Oxanium font
+.oxanium-regular {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.play-bold {
-  font-family: "Play", sans-serif;
+.oxanium-semibold {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.oxanium-bold {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
