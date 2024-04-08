@@ -28,6 +28,10 @@ body {
   transform: skewX(-20deg);
 }
 
+.game_title {
+  color: $light-color;
+}
+
 .button {
   padding: 1rem 2rem;
   background-color: $light-color;

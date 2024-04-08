@@ -81,6 +81,50 @@ export default {
       </ul>
     </div>
 
+
+    <!-- Games Adv -->
+    <div class="games_adv">
+      <div class="custom-container">
+        <div class="d-flex justify-content-between">
+
+          <div class="col me-3">
+
+            <div class="description d-flex flex-column justify-content-center">
+
+              <div class="label">
+                <h5 class="oxanium-semibold ps-3 m-0">Most Popular</h5>
+              </div>
+
+              <h4 class="game_title oxanium-semibold m-0">The Battlefield 4 Naval Strike</h4>
+
+            </div>
+
+          </div>
+
+          <div class="col ms-3">
+
+            <!-- <div class="foreground"></div> -->
+
+            <div class="description d-flex flex-column justify-content-center">
+
+              <div class="label">
+                <h3 class="oxanium-semibold ps-3 m-0">Latest Game</h3>
+              </div>
+
+              <h1 class="game_title oxanium-semibold m-0">Assassin's Creed Unity Game</h1>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
   </main>
 
 
