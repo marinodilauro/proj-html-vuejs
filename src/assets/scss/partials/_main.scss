@@ -1,28 +1,50 @@
 @use './variables' as *;
 
 
-.banner {
-  height: 850px;
-  background-image: url(/public/images/RE3_banner.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+#main {
 
-  .label {
-    width: 355px;
-    margin-bottom: 2.5rem;
-    margin-left: 1.5rem;
+  .shopping_info {
+    height: 210px;
+    color: $light-color;
 
-    h3 {
-      font-size: 2.5rem;
-      transform: skewX(20deg);
+    a {
+      color: $light-color;
+    }
+
+    li:nth-child(2n) {
+      font-size: 2rem;
+      color: rgba(144, 136, 147, 0.2);
+    }
+
+    li:nth-child(5) {
+      i {
+        position: relative;
+
+        span {
+          position: absolute;
+          top: -1.5px;
+          left: 7.5px;
+          font-family: system-ui;
+          font-size: 1.2rem;
+          color: rgb(29, 20, 39);
+        }
+      }
+    }
+
+    span:last-child {
+      font-size: 0.9rem;
+      color: rgb(144, 136, 147);
+
+    }
+
+    a:hover {
+
+      i,
+      div span:nth-child(1) {
+        cursor: pointer;
+        color: $accent-color;
+      }
     }
   }
 
-  .game_title {
-    font-size: 4.4rem;
-    color: $light-color;
-    width: 500px;
-    margin-bottom: 6.5rem;
-  }
 }

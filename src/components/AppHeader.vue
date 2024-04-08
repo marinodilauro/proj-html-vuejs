@@ -30,7 +30,7 @@ export default {
     <div class="custom-container menu d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <img src="/public/images/logo.png" alt="">
+        <img src="/images/logo.png" alt="">
       </div>
 
       <ul class="navbar d-flex list-unstyled oxanium-bold gap-5 p-0 m-0">

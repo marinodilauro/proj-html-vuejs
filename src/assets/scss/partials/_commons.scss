@@ -12,6 +12,16 @@
   @include make-container();
 }
 
+body {
+  background-image: url(/images/body-bg.jpg);
+
+  a {
+    text-decoration: none;
+  }
+
+}
+
+
 .label {
   background-color: $accent-color;
   color: $primary-color;
