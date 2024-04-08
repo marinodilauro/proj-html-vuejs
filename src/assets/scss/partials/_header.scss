@@ -7,13 +7,40 @@
 
   a {
     text-decoration: none;
+
+  }
+
+  hr {
     color: rgb(144, 136, 147);
   }
 
   .info {
+    padding: 0.7rem 0;
     font-size: 0.7rem;
     color: rgb(144, 136, 147);
 
+    a {
+      color: rgb(144, 136, 147);
+    }
+
+  }
+
+  .menu {
+    padding: 1.5rem 0;
+    color: $light-color;
+
+    a {
+      color: $light-color;
+    }
+
+
+    a:hover {
+      color: $accent-color;
+    }
+
+    .profile-icons {
+      color: $accent-color;
+    }
   }
 
 }
