@@ -44,7 +44,58 @@
         cursor: pointer;
         color: $accent-color;
       }
+
+      .free_delivery {
+        background-position: -1px 0;
+      }
+
+      .money_policy {
+        background-position: -1px -224px;
+      }
+
+      .member_discount {
+        background-position: -10px -450px;
+      }
+
+      .return_policy {
+        background-position: -1px -676px;
+      }
     }
+
+    .free_delivery,
+    .money_policy,
+    .member_discount,
+    .return_policy {
+      background-image: url(/images/service-icon.png);
+      background-repeat: no-repeat;
+    }
+
+    .free_delivery {
+      width: 57px;
+      height: 32px;
+      background-position: -1px -113px;
+    }
+
+    .money_policy {
+      width: 57px;
+      height: 38px;
+      background-position: -1px -337px;
+    }
+
+    .member_discount {
+      width: 38px;
+      height: 38px;
+      background-position: -10px -563px;
+    }
+
+    .return_policy {
+      width: 57px;
+      height: 38px;
+      background-position: -1px -789px;
+    }
+
+
+
   }
 
   .games_adv {

@@ -27,12 +27,13 @@ export default {
     <!-- Shopping info -->
     <div class="custom-container">
 
-      <ul class="shopping_info list-unstyled d-flex align-items-center px-5">
+      <ul class="shopping_info list-unstyled d-flex justify-content-between align-items-center px-5">
 
-        <li class="free_delivery">
+        <li>
           <a class=" d-flex align-items-center flex-fill gap-3" href="">
 
-            <i class="fa-solid fa-truck-fast fa-2xl"></i>
+            <div class="free_delivery"></div>
+
             <div class="description d-flex flex-column">
               <span class="oxanium-semibold">Free Delivery</span>
               <span class="poppins-regular">Free Shipping On All Order</span>
@@ -41,12 +42,13 @@ export default {
           </a>
         </li>
 
-        <li class="px-5">|</li>
+        <li class="px-4">|</li>
 
-        <li class="money_policy">
+        <li>
           <a class=" d-flex align-items-center flex-fill gap-3" href="">
 
-            <i class="fa-solid fa-sack-dollar fa-2xl"></i>
+            <div class="money_policy"></div>
+
             <div class="description d-flex flex-column">
               <span class="oxanium-semibold">Money Return</span>
               <span class="poppins-regular">Back Guarantee in 7 days</span>
@@ -55,14 +57,12 @@ export default {
           </a>
         </li>
 
-        <li class="px-5">|</li>
+        <li class="px-4">|</li>
 
-        <li class="member_discount">
+        <li>
           <a class=" d-flex align-items-center flex-fill gap-3" href="">
 
-            <i class="fa-solid fa-certificate fa-2xl">
-              <span>%</span>
-            </i>
+            <div class="member_discount"></div>
 
             <div class="description d-flex flex-column">
               <span class="oxanium-semibold">Member Discount</span>
@@ -72,12 +72,13 @@ export default {
           </a>
         </li>
 
-        <li class="px-5">|</li>
+        <li class="px-4">|</li>
 
-        <li class="return_policy">
+        <li>
           <a class="d-flex align-items-center flex-fill gap-3" href="">
 
-            <i class="fa-solid fa-hand-holding-dollar fa-2xl"></i>
+            <div class="return_policy"></div>
+
             <div class="description d-flex flex-column">
               <span class="oxanium-semibold">Return policy</span>
               <span class="poppins-regular">Support 24 hours a day</span>
@@ -562,7 +563,6 @@ export default {
     </div>
 
   </main>
-
 
 </template>
 
