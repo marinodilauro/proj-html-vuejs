@@ -392,6 +392,28 @@ export default {
 
     </div>
 
+    <!-- Customers Review -->
+    <div class="customers_review">
+      <div class="container-fluid">
+
+        <div class="background d-flex flex-column align-items-center justify-content-center">
+
+          <div class="customer_pic">
+            <img src="/images/t5-1-100x100_left.jpg" alt="">
+            <div>
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+          </div>
+
+          <div class="customer_name"></div>
+
+          <div class="customer_quote"></div>
+
+        </div>
+
+      </div>
+    </div>
+
   </main>
 
 

@@ -284,4 +284,40 @@
       }
     }
   }
+
+  .customers_review {
+    margin-top: 7rem;
+
+    .background {
+      height: 550px;
+      background-image: url(/images/parallax.jpg);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: cover;
+
+      .customer_pic {
+        img {
+          position: absolute;
+          border: 2px solid $accent-color;
+          border-radius: 50%;
+        }
+
+        div {
+          width: 30px;
+          line-height: 30px;
+          text-align: center;
+          aspect-ratio: 1 / 1;
+          position: relative;
+
+          background-color: rgb(249, 170, 1);
+          color: rgb(255, 255, 255);
+          border-radius: 50%;
+        }
+      }
+
+      .customer_name {}
+
+      .customer_quote {}
+    }
+  }
 }
