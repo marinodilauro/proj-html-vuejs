@@ -396,18 +396,65 @@ export default {
     <div class="customers_review">
       <div class="container-fluid">
 
-        <div class="background d-flex flex-column align-items-center justify-content-center">
+        <div class="carousel">
 
-          <div class="customer_pic">
-            <img src="/images/t5-1-100x100_left.jpg" alt="">
-            <div>
-              <i class="fa-solid fa-quote-left"></i>
+          <div class="background d-flex align-items-end justify-content-center">
+
+            <div class="content d-flex flex-column align-items-center justify-content-center">
+
+              <div class="customer_pic">
+                <img src="/images/t5-1-100x100_left.jpg" alt="">
+                <div>
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+              </div>
+
+              <div class="customer_name">
+                <span class="oxanium-semibold me-2">Luies Charles</span>
+                <span class="oxanium-semibold">(Web Designer)</span>
+              </div>
+
+              <div class="customer_quote poppins-regular">
+                "There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration
+                in some form, by injected humour, There are many variations of passages of Lorem Ipsum available, but
+                the
+                majority have suffered alteration in some form, by injected humour, There are many variations of
+                passages
+                of
+                Lorem Ipsum available"
+              </div>
+
+              <div class="navigation">
+                <ul class="list-unstyled d-flex align-items-center">
+
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-circle"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-circle"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-circle"></i>
+                    </a>
+                  </li>
+
+                </ul>
+
+
+
+              </div>
+
             </div>
           </div>
 
-          <div class="customer_name"></div>
-
-          <div class="customer_quote"></div>
 
         </div>
 

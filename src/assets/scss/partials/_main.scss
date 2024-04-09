@@ -288,36 +288,81 @@
   .customers_review {
     margin-top: 7rem;
 
-    .background {
-      height: 550px;
-      background-image: url(/images/parallax.jpg);
-      background-repeat: no-repeat;
-      background-position: bottom;
-      background-size: cover;
+    .carousel {
+      .background {
+        height: 550px;
+        background-image: url(/images/parallax.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
 
-      .customer_pic {
-        img {
-          position: absolute;
-          border: 2px solid $accent-color;
-          border-radius: 50%;
+        .customer_pic {
+          position: relative;
+          margin-bottom: 2rem;
+
+          img {
+            border: 2px solid $accent-color;
+            border-radius: 50%;
+          }
+
+          div {
+            width: 30px;
+            line-height: 30px;
+            text-align: center;
+            aspect-ratio: 1 / 1;
+            position: absolute;
+            top: 0;
+            background-color: rgb(249, 170, 1);
+            color: rgb(255, 255, 255);
+            border-radius: 50%;
+          }
         }
 
-        div {
-          width: 30px;
-          line-height: 30px;
-          text-align: center;
-          aspect-ratio: 1 / 1;
-          position: relative;
+        .customer_name {
+          margin-bottom: 2rem;
 
-          background-color: rgb(249, 170, 1);
-          color: rgb(255, 255, 255);
-          border-radius: 50%;
+          span:first-child {
+            color: $light-color;
+          }
+
+          span:last-child {
+            color: $accent-color;
+          }
+        }
+
+        .customer_quote {
+          margin-bottom: 3rem;
+          width: 69%;
+          color: rgb(144, 136, 147);
+          text-align: center;
+          line-height: 2rem;
+        }
+
+        .navigation {
+          margin-bottom: 3rem;
+
+          li:nth-child(2) {
+            padding: 0 1rem 0 1rem;
+          }
+
+          a {
+            color: $light-color;
+
+            i {
+              font-size: 0.6rem;
+            }
+
+            &:hover {
+              color: $accent-color;
+
+              i {
+                transform: scale(1.5);
+              }
+            }
+          }
         }
       }
-
-      .customer_name {}
-
-      .customer_quote {}
     }
+
   }
 }
