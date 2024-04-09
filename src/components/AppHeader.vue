@@ -41,13 +41,27 @@ export default {
         <li><a href="">Features</a></li>
       </ul>
 
-      <ul class="profile-icons list-unstyled oxanium-bold d-flex gap-4 p-0 m-0">
-        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+      <ul class="icon_group list-unstyled oxanium-bold d-flex gap-4 p-0 m-0">
+
         <li>
-          <a href=""><i class="bi bi-bag"></i></a>
-          (0) €0.00
+          <a href="">
+            <div class="search_icon"></div>
+          </a>
         </li>
+
+        <li>
+          <a href="">
+            <div class="profile_icon"></div>
+          </a>
+        </li>
+
+        <li class="d-flex justify-content-center">
+          <a href="">
+            <div class="shop_icon me-2"></div>
+          </a>
+          <span class="align-self-baseline">(0) €0.00</span>
+        </li>
+
       </ul>
 
     </div>

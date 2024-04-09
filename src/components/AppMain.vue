@@ -21,8 +21,10 @@ export default {
       </div>
     </a>
 
+
     <!-- Banner -->
     <AppBanner />
+
 
     <!-- Shopping info -->
     <div class="custom-container">
