@@ -184,7 +184,7 @@ export default {
 
 
     <!-- Our Products -->
-    <div class="debug our_products d-flex flex-column align-items-center">
+    <div id="our_products" class="debug d-flex flex-column align-items-center">
 
       <!-- Section title -->
       <h4 class="section_title oxanium-semibold mx-auto">Our Products</h4>
@@ -473,7 +473,7 @@ export default {
 
 
     <!-- Blog -->
-    <div class="blog">
+    <div id="blog">
 
       <!-- Section title -->
       <h4 class="section_title oxanium-semibold mx-auto">New Game Blogs</h4>

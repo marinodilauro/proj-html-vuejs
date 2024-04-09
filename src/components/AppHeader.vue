@@ -34,8 +34,8 @@ export default {
 
       <ul class="navbar d-flex list-unstyled oxanium-bold gap-5 p-0 m-0">
         <li><a href="">Home</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">Blog</a></li>
+        <li><a href="#our_products">Shop</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a href="">Media</a></li>
         <li><a href="">ShortCode</a></li>
         <li><a href="">Features</a></li>
