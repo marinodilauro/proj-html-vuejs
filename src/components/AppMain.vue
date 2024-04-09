@@ -311,6 +311,7 @@ export default {
       </div>
     </div>
 
+
     <!-- Deal Of The Day -->
     <div class="debug deal_of_the_day d-flex flex-column align-items-center">
 
@@ -398,6 +399,7 @@ export default {
 
     </div>
 
+
     <!-- Customers Review -->
     <div class="customers_review">
       <div class="container-fluid">
@@ -467,6 +469,7 @@ export default {
       </div>
     </div>
 
+
     <!-- Blog -->
     <div class="blog">
 
@@ -521,9 +524,11 @@ export default {
 
     </div>
 
+
     <div class="custom-container">
       <hr>
     </div>
+
 
     <!-- Brands -->
     <div class="brands">
@@ -556,8 +561,6 @@ export default {
       </div>
 
     </div>
-
-
 
   </main>
 

@@ -1,0 +1,19 @@
+@use './variables' as *;
+
+
+#footer {
+  height: 500px;
+  background-image: url(/images/footer-bg.png);
+
+
+  .footer_top {
+
+    ul {
+      height: 400px;
+      background-color: $accent-color;
+      border: 1px solid white;
+    }
+
+  }
+
+}
