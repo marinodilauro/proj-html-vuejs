@@ -119,6 +119,8 @@
   }
 
   .debug.special_category {
+    position: relative;
+
     .col {
       ._card {
         width: 100%;
@@ -126,6 +128,10 @@
         border: 1px solid white;
         background-color: $accent-color;
       }
+    }
+
+    .nav_button {
+      top: 16%;
     }
   }
 
@@ -364,5 +370,27 @@
       }
     }
 
+  }
+
+  .blog {
+    .col {
+      .article_card {
+        width: 100%;
+        background-color: $accent-color;
+
+        .card_image,
+        .card_footer {
+          border: 1px solid white;
+        }
+
+        .card_image {
+          height: 280px;
+        }
+
+        .card_footer {
+          height: 75px;
+        }
+      }
+    }
   }
 }

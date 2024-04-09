@@ -132,6 +132,12 @@ export default {
     <!-- Special Category -->
     <div class="debug special_category">
 
+      <a class="nav_button p-0" href="#header">
+        <div class="wrapper px-2 py-1">
+          <i class="bi bi-chevron-double-up"></i>
+        </div>
+      </a>
+
       <!-- Section title -->
       <h4 class="section_title oxanium-semibold mx-auto">Special Category</h4>
 
@@ -459,6 +465,60 @@ export default {
         </div>
 
       </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="blog">
+
+      <!-- Section title -->
+      <h4 class="section_title oxanium-semibold mx-auto">New Game Blogs</h4>
+
+      <hr class="divider mx-auto">
+
+      <!-- Articles -->
+      <div class="custom-container">
+        <div class="row row-cols-3">
+
+          <div class="col">
+
+            <div class="article_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="article_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="article_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
 
   </main>
