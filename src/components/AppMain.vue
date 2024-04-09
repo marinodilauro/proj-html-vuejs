@@ -520,15 +520,12 @@ export default {
           </div>
 
         </div>
+
+        <hr class="divider_big">
+
       </div>
 
     </div>
-
-
-    <div class="custom-container">
-      <hr>
-    </div>
-
 
     <!-- Brands -->
     <div class="brands">
