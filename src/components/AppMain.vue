@@ -185,15 +185,19 @@ export default {
 
       <!-- Secton navbar -->
       <ul class="nav">
+
         <li class="nav-item poppins-bold">
           <a class="nav-link" href="#">Featured</a>
         </li>
+
         <li class="nav-item poppins-bold">
           <a class="nav-link" href="#">New Arrival</a>
         </li>
+
         <li class="nav-item poppins-bold">
           <a class="nav-link" href="#">Best Seller</a>
         </li>
+
       </ul>
 
       <!-- Product cards -->
@@ -301,7 +305,92 @@ export default {
       </div>
     </div>
 
+    <!-- Deal Of The Day -->
+    <div class="debug deal_of_the_day d-flex flex-column align-items-center">
 
+      <!-- Section title -->
+      <h4 class="section_title oxanium-semibold mx-auto">Deal Of The Day</h4>
+
+      <hr class="divider mx-auto">
+
+      <!-- Secton navbar -->
+      <ul class="nav">
+
+        <li class="nav-item oxanium-semibold">
+          <a class="nav-link" href="#">1026 days</a>
+        </li>
+
+        <li class="nav-item oxanium-semibold">
+          <a class="nav-link" href="#">13 hours</a>
+        </li>
+
+        <li class="nav-item oxanium-semibold">
+          <a class="nav-link" href="#">24 mins</a>
+        </li>
+
+        <li class="nav-item oxanium-semibold">
+          <a class="nav-link" href="#">17 secs</a>
+        </li>
+
+      </ul>
+
+      <!-- Product cards -->
+      <div class="custom-container">
+        <div class="row row-cols-4">
+
+          <div class="col">
+
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
 
   </main>
 
