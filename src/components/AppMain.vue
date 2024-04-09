@@ -521,6 +521,44 @@ export default {
 
     </div>
 
+    <div class="custom-container">
+      <hr>
+    </div>
+
+    <!-- Brands -->
+    <div class="brands">
+      <div class="custom-container">
+
+        <ul class="list-unstyled d-flex align-items-center justify-content-between px-5">
+
+          <li>
+            <img src="/images/brand-01.png" alt="">
+          </li>
+
+          <li>
+            <img src="/images/brand-02.png" alt="">
+          </li>
+
+          <li>
+            <img src="/images/brand-03.png" alt="">
+          </li>
+
+          <li>
+            <img src="/images/brand-04.png" alt="">
+          </li>
+
+          <li>
+            <img src="/images/brand-05.png" alt="">
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+
+
   </main>
 
 
