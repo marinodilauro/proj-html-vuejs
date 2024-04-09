@@ -11,7 +11,7 @@
       color: $light-color;
     }
 
-    li:nth-child(2n) {
+    li:nth-child(even) {
       font-size: 2rem;
       color: rgba(144, 136, 147, 0.2);
     }
@@ -48,8 +48,8 @@
   }
 
   .games_adv {
-    div {
-      .col:first-child {
+    .col:first-child {
+      .game_adv_card {
         background-image: url(/images/cms-banner-01.jpg);
 
         .label {
@@ -57,8 +57,10 @@
           margin-left: 0.7rem;
         }
       }
+    }
 
-      .col:last-child {
+    .col:last-child {
+      .game_adv_card {
         background-image: url(/images/cms-banner-02.jpg);
 
         .foreground {
@@ -77,14 +79,14 @@
             width: 199px;
             margin-left: 0.5rem;
           }
-
         }
       }
+    }
 
-      .col {
-        width: 685px;
+    .col {
+      .game_adv_card {
+        width: 100%;
         position: relative;
-        // background-position: center;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -110,10 +112,40 @@
             font-size: 2.5rem;
           }
         }
-
       }
-
     }
   }
+
+  .debug.special_category {
+    .col {
+      ._card {
+        width: 100%;
+        height: 550px;
+        border: 1px solid white;
+        background-color: $accent-color;
+      }
+    }
+  }
+
+  .debug.our_products {
+    text-align: center;
+
+    .nav {
+      .nav-item {
+        border: 1px solid rgba(144, 136, 147, 0.2);
+        padding: 1rem 2rem;
+
+        a {
+          color: $light-color;
+          font-size: 0.9rem;
+
+          &:hover {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+  }
+
 
 }

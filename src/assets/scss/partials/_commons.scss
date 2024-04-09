@@ -18,9 +18,7 @@ body {
   a {
     text-decoration: none;
   }
-
 }
-
 
 .label {
   background-color: $accent-color;
@@ -30,6 +28,24 @@ body {
 
 .game_title {
   color: $light-color;
+}
+
+.section_title {
+  font-size: 2.5rem;
+  color: $light-color;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.divider {
+  background-color: $accent-color;
+  width: 55px;
+  height: 2px;
+  border: none;
+  border-radius: 2.5px;
+  opacity: 1;
+  margin-top: 1.2rem;
+  margin-bottom: 1.8rem;
 }
 
 .button {

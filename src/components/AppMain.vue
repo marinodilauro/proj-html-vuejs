@@ -85,45 +85,114 @@ export default {
     <!-- Games Adv -->
     <div class="games_adv">
       <div class="custom-container">
-        <div class="d-flex justify-content-between">
+        <div class="row row-cols-2">
 
-          <div class="col me-3">
+          <div class="col">
 
-            <div class="description d-flex flex-column justify-content-center">
+            <div class="game_adv_card">
 
-              <div class="label">
-                <h5 class="oxanium-semibold ps-3 m-0">Most Popular</h5>
+              <div class="description d-flex flex-column justify-content-center">
+
+                <div class="label">
+                  <h5 class="oxanium-semibold ps-3 m-0">Most Popular</h5>
+                </div>
+
+                <h4 class="game_title oxanium-semibold m-0">The Battlefield 4 Naval Strike</h4>
+
               </div>
-
-              <h4 class="game_title oxanium-semibold m-0">The Battlefield 4 Naval Strike</h4>
-
             </div>
 
           </div>
 
-          <div class="col ms-3">
+          <div class="col">
 
-            <!-- <div class="foreground"></div> -->
+            <div class="game_adv_card">
 
-            <div class="description d-flex flex-column justify-content-center">
+              <!-- <div class="foreground"></div> -->
 
-              <div class="label">
-                <h3 class="oxanium-semibold ps-3 m-0">Latest Game</h3>
+              <div class="description d-flex flex-column justify-content-center">
+
+                <div class="label">
+                  <h3 class="oxanium-semibold ps-3 m-0">Latest Game</h3>
+                </div>
+
+                <h1 class="game_title oxanium-semibold m-0">Assassin's Creed Unity Game</h1>
+
               </div>
 
-              <h1 class="game_title oxanium-semibold m-0">Assassin's Creed Unity Game</h1>
-
             </div>
-
 
           </div>
 
         </div>
       </div>
-
     </div>
 
 
+    <!-- Special Category -->
+    <div class="debug special_category">
+
+      <h4 class="section_title oxanium-semibold mx-auto">Special Category</h4>
+
+      <hr class="divider mx-auto">
+
+      <div class="custom-container">
+        <div class="row row-cols-3">
+
+          <div class="col">
+            <div class="_card">
+              <div class="shop_cta">
+                <span>Batman</span>
+                <span>Shop Now</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="_card">
+              <div class="shop_cta">
+                <span>Bayonetta</span>
+                <span>Shop Now</span>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="_card">
+              <div class="shop_cta">
+                <span>Dark Souls</span>
+                <span>Shop Now</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Our Products -->
+    <div class="debug our_products d-flex flex-column align-items-center">
+
+      <h4 class="section_title oxanium-semibold mx-auto">Our Products</h4>
+
+      <hr class="divider mx-auto">
+
+      <ul class="nav">
+        <li class="nav-item poppins-bold">
+          <a class="nav-link" href="#">Featured</a>
+        </li>
+        <li class="nav-item poppins-bold">
+          <a class="nav-link" href="#">New Arrival</a>
+        </li>
+        <li class="nav-item poppins-bold">
+          <a class="nav-link" href="#">Best Seller</a>
+        </li>
+      </ul>
+
+    </div>
 
   </main>
 
