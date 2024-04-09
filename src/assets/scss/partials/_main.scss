@@ -4,7 +4,7 @@
 #main {
 
   .shopping_info {
-    height: 210px;
+    margin-top: 6rem;
     color: $light-color;
 
     a {
@@ -48,6 +48,8 @@
   }
 
   .games_adv {
+    margin-top: 6rem;
+
     .col:first-child {
       .game_adv_card {
         background-image: url(/images/cms-banner-01.jpg);
@@ -170,5 +172,74 @@
     }
   }
 
+  .games_discount {
+    margin-top: 6rem;
 
+    .col:first-child {
+      .game_adv_card {
+        background-image: url(/images/cms-banner-03.jpg);
+
+        .label {
+          width: 213px;
+          margin-left: 0.7rem;
+        }
+      }
+    }
+
+    .col:last-child {
+      .game_adv_card {
+        background-image: url(/images/cms-banner-04.jpg);
+
+        .foreground {
+          position: relative;
+          z-index: 2;
+          top: 0;
+          left: 100%;
+          transform: translate(-100%);
+          width: 10%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .description {
+          .label {
+            width: 199px;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .col {
+      .game_adv_card {
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+
+        .description {
+          position: relative;
+          transform: translate(0, -50%);
+          top: 50%;
+          left: 45%;
+          z-index: 9999;
+          width: 315px;
+
+          .label {
+            margin-bottom: 1.5rem;
+
+            h5 {
+              font-size: 1.8rem;
+            }
+          }
+
+          .game_title {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
 }

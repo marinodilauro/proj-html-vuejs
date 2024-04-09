@@ -19,7 +19,7 @@ export default {
     <!-- Shopping info -->
     <div class="custom-container">
 
-      <ul class="shopping_info list-unstyled d-flex align-items-center px-5 m-0">
+      <ul class="shopping_info list-unstyled d-flex align-items-center px-5">
 
         <li class="free_delivery">
           <a class=" d-flex align-items-center flex-fill gap-3" href="">
@@ -253,6 +253,55 @@ export default {
       </div>
 
     </div>
+
+
+    <!-- Games Discount-->
+    <div class="games_discount">
+      <div class="custom-container">
+        <div class="row row-cols-2">
+
+          <div class="col">
+
+            <div class="game_adv_card">
+
+              <div class="description d-flex flex-column justify-content-center">
+
+                <div class="label">
+                  <h5 class="oxanium-semibold ps-3 m-0">20% Discount</h5>
+                </div>
+
+                <h4 class="game_title oxanium-semibold m-0">Dragon's Dogma Video Game</h4>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+
+            <div class="game_adv_card">
+
+              <!-- <div class="foreground"></div> -->
+
+              <div class="description d-flex flex-column justify-content-center">
+
+                <div class="label">
+                  <h3 class="oxanium-semibold ps-3 m-0">30% Discount</h3>
+                </div>
+
+                <h1 class="game_title oxanium-semibold m-0">World Of Tanks New Game</h1>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
 
   </main>
 
