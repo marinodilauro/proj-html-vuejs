@@ -131,6 +131,8 @@
     text-align: center;
 
     .nav {
+      margin-bottom: 3rem;
+
       .nav-item {
         border: 1px solid rgba(144, 136, 147, 0.2);
         padding: 1rem 2rem;
@@ -142,6 +144,27 @@
           &:hover {
             color: $accent-color;
           }
+        }
+      }
+    }
+
+    .col {
+      .product_card {
+        width: 100%;
+        background-color: $accent-color;
+
+        .card_image,
+        .card_footer {
+          border: 1px solid white;
+
+        }
+
+        .card_image {
+          height: 327px;
+        }
+
+        .card_footer {
+          height: 120px;
         }
       }
     }

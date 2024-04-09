@@ -132,10 +132,12 @@ export default {
     <!-- Special Category -->
     <div class="debug special_category">
 
+      <!-- Section title -->
       <h4 class="section_title oxanium-semibold mx-auto">Special Category</h4>
 
       <hr class="divider mx-auto">
 
+      <!-- Game cards -->
       <div class="custom-container">
         <div class="row row-cols-3">
 
@@ -176,10 +178,12 @@ export default {
     <!-- Our Products -->
     <div class="debug our_products d-flex flex-column align-items-center">
 
+      <!-- Section title -->
       <h4 class="section_title oxanium-semibold mx-auto">Our Products</h4>
 
       <hr class="divider mx-auto">
 
+      <!-- Secton navbar -->
       <ul class="nav">
         <li class="nav-item poppins-bold">
           <a class="nav-link" href="#">Featured</a>
@@ -191,6 +195,62 @@ export default {
           <a class="nav-link" href="#">Best Seller</a>
         </li>
       </ul>
+
+      <!-- Product cards -->
+      <div class="custom-container">
+        <div class="row row-cols-4">
+
+          <div class="col">
+
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer">
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
 
     </div>
 
