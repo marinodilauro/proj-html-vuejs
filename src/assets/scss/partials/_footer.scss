@@ -5,6 +5,10 @@
   height: 500px;
   background-image: url(/images/footer-bg.png);
 
+  hr {
+    width: 100%;
+    color: rgb(144, 136, 147);
+  }
 
   .footer_top {
 
@@ -13,7 +17,51 @@
       background-color: $accent-color;
       border: 1px solid white;
     }
+  }
 
+  .footer_bottom {
+    color: $light-color;
+    font-size: 0.7rem;
+
+    ul {
+
+      .amex,
+      .discover,
+      .mastercard,
+      .paypal,
+      .visa {
+        background-image: url(/images/payments.png);
+        background-repeat: no-repeat;
+      }
+
+      .amex {
+        width: 40px;
+        height: 25px;
+        background-position: -1px -1px;
+      }
+
+      .discover {
+        width: 40px;
+        height: 25px;
+        background-position: -1px -195px;
+      }
+
+      .mastercard {
+        width: 40px;
+        height: 25px;
+      }
+
+      .paypal {
+        width: 40px;
+        height: 25px;
+      }
+
+      .visa {
+        width: 40px;
+        height: 25px;
+      }
+
+    }
   }
 
 }

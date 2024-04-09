@@ -14,6 +14,14 @@ export default {
 
   <main id="main">
 
+    <!-- Navigation button -->
+    <a class="nav_button p-0" href="#header">
+      <div class="wrapper px-2 py-1">
+        <i class="bi bi-chevron-double-up"></i>
+      </div>
+    </a>
+
+    <!-- Banner -->
     <AppBanner />
 
     <!-- Shopping info -->
@@ -131,12 +139,6 @@ export default {
 
     <!-- Special Category -->
     <div class="debug special_category">
-
-      <a class="nav_button p-0" href="#header">
-        <div class="wrapper px-2 py-1">
-          <i class="bi bi-chevron-double-up"></i>
-        </div>
-      </a>
 
       <!-- Section title -->
       <h4 class="section_title oxanium-semibold mx-auto">Special Category</h4>

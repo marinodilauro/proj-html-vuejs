@@ -8,7 +8,7 @@ export default {
 
 <template>
 
-  <footer id="footer" class="d-flex flex-column justify-content-center align-items-center">
+  <footer id="footer" class="poppins-regular d-flex flex-column justify-content-center align-items-center">
 
     <div class="custom-container footer_top">
       <div class="container-fluid">
@@ -58,7 +58,23 @@ export default {
       </div>
     </div>
 
-    <div class="custom-container footer_bottom"></div>
+    <hr class="mt-5">
+
+    <div class="custom-container footer_bottom d-flex justify-content-between align-items-center pb-1">
+
+      <span>Copyright &copy; 2024 Marino di Lauro</span>
+
+      <ul class="payment_methods d-flex list-unstyled p-0 m-0 gap-1">
+
+        <li class="amex"></li>
+        <li class="discover"></li>
+        <li class="mastercard"></li>
+        <li class="paypal"></li>
+        <li class="visa"></li>
+
+      </ul>
+
+    </div>
 
   </footer>
 

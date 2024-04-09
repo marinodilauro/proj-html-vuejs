@@ -24,13 +24,6 @@ export default {
       </div>
     </div>
 
-
-    <a class="nav_button p-0" href="#header">
-      <div class="wrapper px-2 py-1">
-        <i class="bi bi-chevron-double-up"></i>
-      </div>
-    </a>
-
   </div>
 
 </template>

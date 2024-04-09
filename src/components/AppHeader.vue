@@ -10,7 +10,6 @@ export default {
 
   <header class="poppins-regular" id="header">
 
-
     <div class="custom-container info">
 
       <ul class="d-flex list-unstyled p-0 m-0">
@@ -54,7 +53,6 @@ export default {
     </div>
 
   </header>
-
 
 </template>
 
