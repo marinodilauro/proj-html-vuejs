@@ -584,7 +584,7 @@ export default {
 
               <!-- Discount label -->
               <div class="label">
-                <span class="oxanium-semibold m-0">-44%</span>
+                <p class="oxanium-semibold m-0">-44%</p>
               </div>
 
               <!-- Image -->
