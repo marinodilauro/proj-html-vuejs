@@ -194,7 +194,7 @@ export default {
 
       <hr class="divider mx-auto">
 
-      <!-- Secton navbar -->
+      <!-- Section navbar -->
       <ul class="nav">
 
         <li class="nav-item poppins-bold">
@@ -211,8 +211,14 @@ export default {
 
       </ul>
 
+
       <!-- Product cards -->
       <div class="custom-container">
+
+        <!-- Navigation buttons -->
+        <div class="prev"></div>
+        <div class="next"></div>
+
         <div class="row row-cols-4">
 
           <div class="col">
@@ -532,6 +538,11 @@ export default {
 
       <!-- Product cards -->
       <div class="custom-container">
+
+        <!-- Navigation buttons -->
+        <div class="prev"></div>
+        <div class="next"></div>
+
         <div class="row row-cols-4">
 
           <div class="col">

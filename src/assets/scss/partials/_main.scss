@@ -209,6 +209,45 @@
       }
     }
 
+    // Nav buttons sprites rendering
+    .custom-container {
+      position: relative;
+
+      .prev,
+      .next {
+        background-image: url(/images/arrow.png);
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        z-index: 9999;
+      }
+
+      .prev {
+        background-position: 0 -50px;
+        top: 50%;
+        left: 0;
+        transform: translate(-25%, -50%);
+
+        &:hover {
+          cursor: pointer;
+          background-position: 0 1px;
+        }
+      }
+
+      .next {
+        background-position: -50px -50px;
+        top: 50%;
+        left: 100%;
+        transform: translate(-75%, -50%);
+
+        &:hover {
+          cursor: pointer;
+          background-position: -50px 1px;
+        }
+      }
+    }
+
     // Rating star and product image
     .col:nth-child(1) {
       .card_image {
@@ -425,6 +464,45 @@
           &:hover {
             color: $accent-color;
           }
+        }
+      }
+    }
+
+    // Nav buttons sprites rendering
+    .custom-container {
+      position: relative;
+
+      .prev,
+      .next {
+        background-image: url(/images/arrow.png);
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        z-index: 9999;
+      }
+
+      .prev {
+        background-position: 0 -50px;
+        top: 50%;
+        left: 0;
+        transform: translate(-25%, -50%);
+
+        &:hover {
+          cursor: pointer;
+          background-position: 0 1px;
+        }
+      }
+
+      .next {
+        background-position: -50px -50px;
+        top: 50%;
+        left: 100%;
+        transform: translate(-75%, -50%);
+
+        &:hover {
+          cursor: pointer;
+          background-position: -50px 1px;
         }
       }
     }
