@@ -103,7 +103,7 @@ export default {
               <li class="oxanium-semibold list_title mb-3">Our Newsletter</li>
 
               <li class="lh-lg mb-4">
-                <a href="">There are many variations of passages of form humour or randomised</a>
+                There are many variations of passages of form humour or randomised
               </li>
 
               <li class="lh-lg mb-4">

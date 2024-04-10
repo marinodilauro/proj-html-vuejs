@@ -426,22 +426,52 @@
   }
 
   #blog {
+
+    .col:nth-child(1) {
+      .card_image {
+        background-image: url(/images/Nisi-ut-aliquid-ex-ea-com-1400x878_t.jpg);
+      }
+    }
+
+    .col:nth-child(2) {
+      .card_image {
+        background-image: url(/images/Architecto-beatae-vitae-dicta-1400x878_t.jpg);
+      }
+    }
+
+    .col:nth-child(3) {
+      .card_image {
+        background-image: url(/images/At-vero-eos-et-accusamus-1400x878_t.jpg);
+      }
+    }
+
     .col {
+
       .article_card {
         width: 100%;
-        background-color: $accent-color;
-
-        .card_image,
-        .card_footer {
-          border: 1px solid white;
-        }
 
         .card_image {
           height: 280px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
         }
 
         .card_footer {
           height: 75px;
+
+          .date_and_comments {
+            color: $light-font-color;
+            font-size: 0.9rem;
+
+            i {
+              color: $accent-color;
+            }
+          }
+
+          .article_title {
+            color: $light-color;
+          }
         }
       }
     }

@@ -495,33 +495,71 @@ export default {
 
               <div class="card_footer">
 
+                <div class="date_and_comments poppins-regular d-flex align-items-center mt-3 mb-2">
+                  <i class="fa-regular fa-calendar-days me-1"></i>
+                  <span class="me-4">Jan 18, 2024</span>
+                  <i class="fa-solid fa-comments me-1"></i>
+                  <span>0 comments</span>
+                </div>
+
+                <div class="article_title oxanium-semibold">
+                  Anyway REPS is a NYC agency repres enting photographers
+                </div>
+
               </div>
 
             </div>
+
           </div>
 
           <div class="col">
+
             <div class="article_card">
 
               <div class="card_image"></div>
 
               <div class="card_footer">
 
+                <div class="date_and_comments poppins-regular d-flex align-items-center mt-3 mb-2">
+                  <i class="fa-regular fa-calendar-days me-1"></i>
+                  <span class="me-4">Feb 30, 2024</span>
+                  <i class="fa-solid fa-comments me-1"></i>
+                  <span>0 comments</span>
+                </div>
+
+                <div class="article_title oxanium-semibold">
+                  Nasual risus suscipit Lorem ipsum is simply text
+                </div>
+
               </div>
 
             </div>
+
           </div>
 
           <div class="col">
+
             <div class="article_card">
 
               <div class="card_image"></div>
 
               <div class="card_footer">
 
+                <div class="date_and_comments poppins-regular d-flex align-items-center mt-3 mb-2">
+                  <i class="fa-regular fa-calendar-days me-1"></i>
+                  <span class="me-4">Apr 5, 2024</span>
+                  <i class="fa-solid fa-comments me-1"></i>
+                  <span>0 comments</span>
+                </div>
+
+                <div class="article_title oxanium-semibold">
+                  Nostrum lesum Christum Lorem ipsum is simply text
+                </div>
+
               </div>
 
             </div>
+
           </div>
 
         </div>
@@ -529,8 +567,8 @@ export default {
         <hr class="divider_big">
 
       </div>
-
     </div>
+
 
     <!-- Brands -->
     <div class="brands">
