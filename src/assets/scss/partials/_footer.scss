@@ -13,9 +13,61 @@
   .footer_top {
 
     ul {
-      height: 400px;
-      background-color: $accent-color;
-      border: 1px solid white;
+      margin-bottom: 5rem;
+
+      a {
+        color: rgb(144, 136, 147);
+      }
+
+      li {
+        font-size: 0.9rem;
+
+        i {
+          color: $accent-color;
+        }
+
+        .newsletter_input {
+          border: none;
+          width: 85%;
+          height: 45px;
+        }
+
+        .newsletter_btn {
+          background-color: $light-color;
+          border: none;
+          padding: 0 0.7rem 0 0.7rem;
+
+          .newsletter_icon {
+            background-image: url(/images/newsletter.png);
+            background-repeat: no-repeat;
+            width: 21px;
+            height: 19px;
+            background-position: 0 0;
+          }
+
+          &:hover .newsletter_icon {
+            background-position: 0 -64px;
+          }
+        }
+      }
+
+      .list_title {
+        color: $light-color;
+        font-size: 1.1rem;
+      }
+    }
+
+    .social_icons {
+      a {
+        i {
+
+          color: $light-color;
+        }
+
+        &:hover i {
+          color: $accent-color;
+        }
+      }
     }
   }
 
