@@ -221,49 +221,233 @@ export default {
 
               <div class="card_image"></div>
 
-              <div class="card_footer">
+              <div class="card_footer d-flex flex-column align-items-between px-2 ">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">PC Gamepad - Black</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 70.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
 
               </div>
-
             </div>
           </div>
+
+          <div class="col">
+
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer d-flex flex-column align-items-between px-2">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">AverMedia GM310 Aegis USB microphone</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 83.00 - € 90.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer d-flex flex-column align-items-between px-2">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">Redragon Gaming MousePad - Black&Red</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 39.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
 
           <div class="col">
             <div class="product_card">
 
               <div class="card_image"></div>
 
-              <div class="card_footer">
+              <div class="card_footer d-flex flex-column align-items-between px-2">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">Sony DualShock 4 Wireless - Black</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 110.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
 
               </div>
 
             </div>
+
           </div>
-
-          <div class="col">
-            <div class="product_card">
-
-              <div class="card_image"></div>
-
-              <div class="card_footer">
-
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="product_card">
-
-              <div class="card_image"></div>
-
-              <div class="card_footer">
-
-              </div>
-
-            </div>
-          </div>
-
         </div>
       </div>
 
