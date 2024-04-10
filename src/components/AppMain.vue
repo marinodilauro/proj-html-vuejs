@@ -14,8 +14,8 @@ export default {
 
   <main id="main">
 
-    <!-- Navigation button -->
-    <a class="nav_button p-0" href="#header">
+    <!-- Site Navigation button -->
+    <a class="site_nav_button p-0" href="#header">
       <div class="wrapper px-2 py-1">
         <i class="bi bi-chevron-double-up"></i>
       </div>
@@ -153,36 +153,41 @@ export default {
         <div class="row row-cols-3">
 
           <div class="col">
-            <div class="_card">
-              <div class="shop_cta">
-                <span>Batman</span>
-                <span>Shop Now</span>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="_card">
-              <div class="shop_cta">
-                <span>Bayonetta</span>
-                <span>Shop Now</span>
-
+            <div class="_card d-flex justify-content-start align-items-end" title="Battlefield 3">
+              <div class="shop_cta d-flex flex-column px-3 pb-3 pt-4">
+                <span class="game_title oxanium-semibold mb-2">Battlefield 3</span>
+                <span class="cta_link poppins-regular">
+                  <a href="">Shop Now</a>
+                </span>
               </div>
             </div>
           </div>
 
           <div class="col">
-            <div class="_card">
-              <div class="shop_cta">
-                <span>Dark Souls</span>
-                <span>Shop Now</span>
+            <div class="_card d-flex justify-content-start align-items-end" title="PlayerUnknown's Battlegrounds">
+              <div class="shop_cta d-flex flex-column px-3 pb-3 pt-4">
+                <span class="game_title oxanium-semibold mb-2">PlayerUnknown's Battlegrounds</span>
+                <span class="cta_link poppins-regular">
+                  <a href="">Shop Now</a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="_card d-flex justify-content-start align-items-end" title="Jump Force">
+              <div class="shop_cta d-flex flex-column px-3 pb-3 pt-4">
+                <span class="game_title oxanium-semibold mb-2">Jump Force</span>
+                <span class="cta_link poppins-regular">
+                  <a href="">Shop Now</a>
+                </span>
               </div>
             </div>
           </div>
 
         </div>
       </div>
+
     </div>
 
 
@@ -194,7 +199,7 @@ export default {
 
       <hr class="divider mx-auto">
 
-      <!-- Section navbar -->
+      <!-- Navbar -->
       <ul class="nav">
 
         <li class="nav-item poppins-bold">
@@ -211,7 +216,6 @@ export default {
 
       </ul>
 
-
       <!-- Product cards -->
       <div class="custom-container">
 
@@ -223,12 +227,16 @@ export default {
 
           <div class="col">
 
+            <!-- Product card -->
             <div class="product_card">
 
+              Image Image
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2 ">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -239,14 +247,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">PC Gamepad - Black</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 70.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -281,12 +292,16 @@ export default {
 
           <div class="col">
 
+            <!-- Product card -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -297,14 +312,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">AverMedia GM310 Aegis USB microphone</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 83.00 - € 90.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -339,12 +357,16 @@ export default {
 
           <div class="col">
 
+            <!-- Product card -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -355,14 +377,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">Redragon Gaming MousePad - Black&Red</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 39.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -397,12 +422,17 @@ export default {
 
 
           <div class="col">
+
+            <!-- Product card -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -413,14 +443,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">Sony DualShock 4 Wireless - Black</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 110.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -547,12 +580,16 @@ export default {
 
           <div class="col">
 
+            <!-- Product card -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2 ">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -563,15 +600,18 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">Sony DualShock 4 Wireless - Urban Camo</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="discounted_price oxanium-semibold me-2">€ 180.00</span>
                   <span class="actual_price oxanium-semibold">€ 100.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -606,12 +646,16 @@ export default {
 
           <div class="col">
 
+            <!-- Product title -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -622,14 +666,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">Razer Mamba Gaming Mouse</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 56.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -664,12 +711,16 @@ export default {
 
           <div class="col">
 
+            <!-- Product title   -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -680,14 +731,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">Gaming Headset Black</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 39.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -720,14 +774,18 @@ export default {
             </div>
           </div>
 
-
           <div class="col">
+
+            <!-- Product title -->
             <div class="product_card">
 
+              <!-- Image -->
               <div class="card_image"></div>
 
+              <!-- Card footer -->
               <div class="card_footer d-flex flex-column align-items-between px-2">
 
+                <!-- Rating stars -->
                 <div class="rating d-flex align-items-center mt-3">
 
                   <i class="fa-solid fa-star"></i>
@@ -738,14 +796,17 @@ export default {
 
                 </div>
 
+                <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
                   <a href="">Gamepad PC - Orange</a>
                 </div>
 
+                <!-- Price -->
                 <div class="price my-3">
                   <span class="actual_price oxanium-semibold">€ 160.00</span>
                 </div>
 
+                <!-- User actions -->
                 <div class="user_actions d-flex">
 
                   <div class="icon_container text-center py-1">
@@ -779,6 +840,7 @@ export default {
             </div>
 
           </div>
+
         </div>
       </div>
     </div>
@@ -869,7 +931,7 @@ export default {
           <div class="col">
 
             <div class="article_card">
-
+              <!-- Image -->
               <div class="card_image"></div>
 
               <div class="card_footer">
@@ -894,7 +956,7 @@ export default {
           <div class="col">
 
             <div class="article_card">
-
+              <!-- Image -->
               <div class="card_image"></div>
 
               <div class="card_footer">
@@ -919,7 +981,7 @@ export default {
           <div class="col">
 
             <div class="article_card">
-
+              <!-- Image -->
               <div class="card_image"></div>
 
               <div class="card_footer">

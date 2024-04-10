@@ -174,21 +174,63 @@
   .debug.special_category {
     position: relative;
 
+    .col:nth-child(1) {
+      ._card {
+        background-image: url(/images/category-image-02-446x550_t.jpg);
+      }
+    }
+
+    .col:nth-child(2) {
+      ._card {
+        background-image: url(/images/category-image-01-446x550_t.jpg);
+      }
+    }
+
+    .col:nth-child(3) {
+      ._card {
+        background-image: url(/images/category-image-03-446x550_t.jpg);
+      }
+    }
+
     .col {
       ._card {
         width: 100%;
         height: 550px;
-        border: 1px solid white;
-        background-color: $accent-color;
-      }
-    }
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
-    .nav_button {
-      top: 16%;
+        .shop_cta {
+          background-color: rgba(0, 0, 0, 0.5);
+          width: 100%;
+
+          .game_title {
+            color: $light-color;
+            font-size: 1.1rem;
+          }
+
+          .cta_link {
+            font-size: 0.9rem;
+
+            a {
+              color: $accent-color;
+              text-decoration: underline;
+
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+
+        &:hover .shop_cta {
+          background-color: $primary-dark-color;
+        }
+      }
     }
   }
 
-  #our_products.debug {
+  #our_products {
     text-align: center;
 
     .nav {
