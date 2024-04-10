@@ -171,7 +171,7 @@
     }
   }
 
-  .debug.special_category {
+  .special_category {
     position: relative;
 
     .col:nth-child(1) {
@@ -551,6 +551,7 @@
 
     // Rating star and product image
     .col:nth-child(1) {
+
       .card_image {
         background-image: url(/images/04-327x327.jpg);
       }
@@ -608,7 +609,21 @@
 
     .col {
       .product_card {
+        position: relative;
         width: 100%;
+
+        .label {
+          position: absolute;
+          width: 50px;
+          top: 3%;
+          left: 5%;
+          text-align: center;
+
+          span {
+            font-size: 0.8rem;
+            transform: skewX(20deg);
+          }
+        }
 
         .card_image {
           height: 327px;

@@ -1,6 +1,7 @@
 <script>
 import AppBanner from './AppBanner.vue';
 
+
 export default {
   name: 'AppMain',
   components: {
@@ -230,7 +231,7 @@ export default {
             <!-- Product card -->
             <div class="product_card">
 
-              Image Image
+              <!-- Image -->
               <div class="card_image"></div>
 
               <!-- Card footer -->
@@ -420,7 +421,6 @@ export default {
             </div>
           </div>
 
-
           <div class="col">
 
             <!-- Product card -->
@@ -487,6 +487,7 @@ export default {
             </div>
 
           </div>
+
         </div>
       </div>
 
@@ -519,8 +520,6 @@ export default {
 
             <div class="game_adv_card">
 
-              <!-- <div class="foreground"></div> -->
-
               <div class="description d-flex flex-column justify-content-center">
 
                 <div class="label">
@@ -548,7 +547,7 @@ export default {
 
       <hr class="divider mx-auto">
 
-      <!-- Secton navbar -->
+      <!-- Timer navbar -->
       <ul class="timer list-unstyled d-flex">
 
         <li class="timer-item oxanium-semibold">
@@ -582,6 +581,11 @@ export default {
 
             <!-- Product card -->
             <div class="product_card">
+
+              <!-- Discount label -->
+              <div class="label">
+                <span class="oxanium-semibold m-0">-44%</span>
+              </div>
 
               <!-- Image -->
               <div class="card_image"></div>
@@ -668,7 +672,7 @@ export default {
 
                 <!-- Product title -->
                 <div class="product_title oxanium-semibold mt-3">
-                  <a href="">Razer Mamba Gaming Mouse</a>
+                  <a href="">Razer Mamba - Gaming Mouse</a>
                 </div>
 
                 <!-- Price -->
@@ -776,7 +780,7 @@ export default {
 
           <div class="col">
 
-            <!-- Product title -->
+            <!-- Product card -->
             <div class="product_card">
 
               <!-- Image -->
@@ -930,7 +934,9 @@ export default {
 
           <div class="col">
 
+            <!-- Arcticle -->
             <div class="article_card">
+
               <!-- Image -->
               <div class="card_image"></div>
 
@@ -943,6 +949,7 @@ export default {
                   <span>0 comments</span>
                 </div>
 
+                <!-- Article title -->
                 <div class="article_title oxanium-semibold">
                   Anyway REPS is a NYC agency repres enting photographers
                 </div>
@@ -955,7 +962,9 @@ export default {
 
           <div class="col">
 
+            <!-- Article -->
             <div class="article_card">
+
               <!-- Image -->
               <div class="card_image"></div>
 
@@ -968,6 +977,7 @@ export default {
                   <span>0 comments</span>
                 </div>
 
+                <!-- Article title -->
                 <div class="article_title oxanium-semibold">
                   Nasual risus suscipit Lorem ipsum is simply text
                 </div>
@@ -980,7 +990,9 @@ export default {
 
           <div class="col">
 
+            <!-- Article -->
             <div class="article_card">
+
               <!-- Image -->
               <div class="card_image"></div>
 
@@ -992,7 +1004,7 @@ export default {
                   <i class="fa-solid fa-comments me-1"></i>
                   <span>0 comments</span>
                 </div>
-
+                <!-- Article title -->
                 <div class="article_title oxanium-semibold">
                   Nostrum lesum Christum Lorem ipsum is simply text
                 </div>

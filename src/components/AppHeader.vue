@@ -12,6 +12,7 @@ export default {
 
     <div class="custom-container info">
 
+      <!-- Header top -->
       <ul class="d-flex list-unstyled p-0 m-0">
         <li><a href="">Whishlist (0)</a></li>
         <li class="px-3">|</li>
@@ -26,6 +27,7 @@ export default {
 
     <hr class="m-0">
 
+    <!-- Header Menu -->
     <div class="custom-container menu d-flex align-items-center justify-content-between">
 
       <div class="logo">
