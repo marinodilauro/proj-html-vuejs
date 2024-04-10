@@ -326,22 +326,22 @@ export default {
       <hr class="divider mx-auto">
 
       <!-- Secton navbar -->
-      <ul class="nav">
+      <ul class="timer list-unstyled d-flex">
 
-        <li class="nav-item oxanium-semibold">
-          <a class="nav-link" href="#">1026 days</a>
+        <li class="timer-item oxanium-semibold">
+          <a class="timer-link" href="#">1026 days</a>
         </li>
 
-        <li class="nav-item oxanium-semibold">
-          <a class="nav-link" href="#">13 hours</a>
+        <li class="timer-item oxanium-semibold">
+          <a class="timer-link" href="#">13 hours</a>
         </li>
 
-        <li class="nav-item oxanium-semibold">
-          <a class="nav-link" href="#">24 mins</a>
+        <li class="timer-item oxanium-semibold">
+          <a class="timer-link" href="#">24 mins</a>
         </li>
 
-        <li class="nav-item oxanium-semibold">
-          <a class="nav-link" href="#">17 secs</a>
+        <li class="timer-item oxanium-semibold">
+          <a class="timer-link" href="#">17 secs</a>
         </li>
 
       </ul>
@@ -356,52 +356,236 @@ export default {
 
               <div class="card_image"></div>
 
-              <div class="card_footer">
+              <div class="card_footer d-flex flex-column align-items-between px-2 ">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">Sony DualShock 4 Wireless - Urban Camo</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="discounted_price oxanium-semibold me-2">€ 180.00</span>
+                  <span class="actual_price oxanium-semibold">€ 100.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
 
               </div>
-
             </div>
           </div>
+
+          <div class="col">
+
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer d-flex flex-column align-items-between px-2">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">Razer Mamba Gaming Mouse</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 56.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+
+            <div class="product_card">
+
+              <div class="card_image"></div>
+
+              <div class="card_footer d-flex flex-column align-items-between px-2">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">Gaming Headset Black</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 39.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
 
           <div class="col">
             <div class="product_card">
 
               <div class="card_image"></div>
 
-              <div class="card_footer">
+              <div class="card_footer d-flex flex-column align-items-between px-2">
+
+                <div class="rating d-flex align-items-center mt-3">
+
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <div class="product_title oxanium-semibold mt-3">
+                  <a href="">Gamepad PC - Orange</a>
+                </div>
+
+                <div class="price my-3">
+                  <span class="actual_price oxanium-semibold">€ 160.00</span>
+                </div>
+
+                <div class="user_actions d-flex">
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-regular fa-hand-pointer"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-maximize"></i>
+                    </a>
+                  </div>
+
+                  <div class="icon_container text-center py-1">
+                    <a href="">
+                      <i class="fa-solid fa-eye"></i>
+                    </a>
+                  </div>
+
+                </div>
 
               </div>
 
             </div>
+
           </div>
-
-          <div class="col">
-            <div class="product_card">
-
-              <div class="card_image"></div>
-
-              <div class="card_footer">
-
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="product_card">
-
-              <div class="card_image"></div>
-
-              <div class="card_footer">
-
-              </div>
-
-            </div>
-          </div>
-
         </div>
       </div>
-
     </div>
 
 

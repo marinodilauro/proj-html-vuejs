@@ -305,10 +305,10 @@
   .deal_of_the_day {
     text-align: center;
 
-    .nav {
+    .timer {
       margin-bottom: 3rem;
 
-      .nav-item {
+      .timer-item {
         border: 1px solid rgba(144, 136, 147, 0.2);
         padding: 1rem 2rem;
 
@@ -322,23 +322,138 @@
       }
     }
 
+    // Rating star and product image
+    .col:nth-child(1) {
+      .card_image {
+        background-image: url(/images/04-327x327.jpg);
+      }
+
+      .card_footer {
+        .rating {
+          i:nth-child(-n + 4) {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+
+    .col:nth-child(2) {
+      .card_image {
+        background-image: url(/images/18-327x327.jpg);
+      }
+
+      .card_footer {
+        .rating {
+          i {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+
+    .col:nth-child(3) {
+      .card_image {
+        background-image: url(/images/02-327x327.jpg);
+      }
+
+      .card_footer {
+        .rating {
+          i:nth-child(-n + 3) {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+
+    .col:nth-child(4) {
+      .card_image {
+        background-image: url(/images/10-327x327.jpg);
+      }
+
+      .card_footer {
+        .rating {
+          i:nth-child(-n + 2) {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+
     .col {
       .product_card {
         width: 100%;
-        background-color: $accent-color;
-
-        .card_image,
-        .card_footer {
-          border: 1px solid white;
-
-        }
 
         .card_image {
           height: 327px;
         }
 
         .card_footer {
-          height: 120px;
+          text-align: start;
+          background-color: $primary-dark-color;
+
+          .rating {
+            color: $light-color
+          }
+
+          .product_title {
+            a {
+              color: $light-color;
+            }
+
+            &:hover {
+              cursor: pointer;
+
+              a {
+                color: $accent-color;
+              }
+            }
+          }
+
+          .price {
+            .discounted_price {
+              color: $light-font-color;
+              text-decoration: line-through;
+            }
+
+            .actual_price {
+              color: $accent-color;
+            }
+          }
+
+          .icon_container:not(:last-child) {
+            border-right: 2px solid $primary-color;
+          }
+
+          .icon_container {
+            display: none;
+            border-top: 2px solid $primary-color;
+            width: 100%;
+
+            a {
+              color: $light-color;
+            }
+
+            &:hover {
+              cursor: pointer;
+
+              a {
+                color: $accent-color;
+              }
+            }
+          }
+
+        }
+
+        &:hover .user_actions {
+          margin: 1.4rem -0.5rem 0 -0.5rem;
+        }
+
+        &:hover .icon_container {
+          display: block;
+        }
+
+        &:hover .price {
+          display: none;
         }
       }
     }
