@@ -1,6 +1,6 @@
 # GameHoax - Sito Web di E-commerce per Videogiochi
 
-![Screenshot di GameHoax](images/screenshot.png "Home page di GameHoax")
+![Screenshot di GameHoax](public/images/screenshot.png "Home page di GameHoax")
 
 ## Descrizione del Progetto
 
