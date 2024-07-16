@@ -30,6 +30,6 @@ GameHoax è un sito web di e-commerce specializzato nella vendita di videogiochi
 
 ## Visualizzare il Progetto
 
-Il progetto è visionabile tramite GitHub Pages al seguente indirizzo: [Inserire qui il link a GitHub Pages]
+Il progetto è visionabile tramite GitHub Pages al seguente indirizzo: https://marinodilauro.github.io/proj-html-vuejs/
 
 
